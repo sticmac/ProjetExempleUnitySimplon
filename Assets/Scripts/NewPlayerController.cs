@@ -19,7 +19,7 @@ public class NewPlayerController : MonoBehaviour
 #endregion
 
 #region Unity Events
-    // Fonctions pour les events
+    // Fonctions pour les Unity Events
     public void MoveCharacter(InputAction.CallbackContext ctx)
     {
         _movement.Move(ctx.ReadValue<Vector2>());
